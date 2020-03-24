@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp-pod
+  labels:
+    app: myapp
+  namespace: dev
+spec:
+  containers:
+    - name: helloworld1
+      image: sharanshgupta/helloworld1:1.0
